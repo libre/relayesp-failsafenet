@@ -1,0 +1,37 @@
+########## RelayESP-FailSafeNet v 1.0 - https://github.com/libre
+## Setup AP Mode 
+SETUPMODE=1
+
+## Active Monitoring
+MONITORACTIVED=0
+
+## Wifi 
+SSID=defaultwifi
+WIRLESSPASSWORD=passwifi
+
+## NTP 
+NTPSERVER=pool.ntp.org
+GMTOFFSET_SEC=3600
+DAYLIGHTOFFSET=0
+
+## Test IP Ping 
+PRIMARYPING=8.8.8.8
+SECONDARYPING=1.1.1.1
+
+## Test Interval
+TEST_INTERVAL=30000
+
+## Maximum faild count
+MAX_FAIL_COUNT=50
+
+## Relay activation wait time. 
+RELAY_DURATION=20000
+
+## Recovery Wait for restart test process. 
+RECOVERY_DELAY=1500000
+
+## DEBUG SERIAL ACTIF = 1 
+DEBUGSERIAL=0
+
+## Password admin
+WEBPASS=changeme
